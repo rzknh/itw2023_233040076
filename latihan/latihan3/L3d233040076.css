@@ -2,6 +2,7 @@ body {
     background-color: aqua;
     font-family: Georgia;
     background-image: url(background.png);
+    background-size: cover;
     background-repeat: repeat-x;
    }
    h1{
@@ -34,7 +35,7 @@ body {
     
     .hello2
     {
-        color: blue
+        color: blue;
         font-weight: bold;
         text-decoration: none;
     }
