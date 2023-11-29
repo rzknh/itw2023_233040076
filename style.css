@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    font: 18px/36px "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    flex-direction: column;
+
+  }
+
+.container {
+    width: 600px;
+    border: 2px solid black;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(2, 8, 8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.main {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.main .p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
